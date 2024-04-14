@@ -3,7 +3,13 @@ html {
 }
 
 h1 {
-  color: blueviolet;
+  color: rgb(212, 212, 212);
+}
+h2 {
+  color: white;
+  margin: 5px 0;
+  font-weight: 100;
+  font-size: 1.2em;
 }
 
 body {
@@ -14,8 +20,33 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-image: url(images/pngtree-flying-bee-png-illustration-swarm-png-image_11464556.png);
+  /* background-color: rgb(223, 144, 27); */
+
+  /* background-image: url(https://beelab.umn.edu/sites/beelab.umn.edu/files/styles/folwell_full/public/2021-05/learn%20about%20honey%20bees%20header.jpg?itok=tXHHAxNX); */
 }
+#header-wraper {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(45deg, rgb(223, 144, 27), transparent);
+}
+#my-picture img {
+  border-radius: 50%;
+  border: 4px solid #ffffff90;
+  height: 108px;
+  width: 108px;
+}
+#my-picture {
+  padding: 12px;
+  width: 120px;
+  height: 120px;
+}
+#header-info {
+  flex: 1;
+  padding: 10px;
+  text-shadow: 1px 1px 2px black;
+}
+
 section {
   flex: 1;
 }

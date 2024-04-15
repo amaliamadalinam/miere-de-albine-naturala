@@ -1,4 +1,4 @@
-let activePage = "skills";
+let activePage = "pov2";
 
 //functii publice
 function $(selector) {
@@ -59,46 +59,8 @@ function initEvents() {
     // console.info("click pe link", a);
   });
 }
-function sortSkillsByEndorcements(a, b) {
-  console.info("sort", a, b);
-  return b.endorcements - a.endorcements;
-}
-
-function sortByName(a, b) {
-  return a.name.localeCompare(b.name);
-}
-
-function showSkills(skills) {
-  // skills.sort(sortSkillsByEndorcements);
-  skills.sort(sortByName);
-
-  const ul = $("#skills ul");
-
-  const text = skills.map((skill) => {
-    let cls = "";
-    if (skill.favorite == true) {
-      cls = "favorite";
-    }
-
-    console.info(" %o map (%o)", skill.name, cls);
-    return `<li class="${cls}">${skill.name} <span> - ${skill.endorcements}</span></li>`;
-  });
-
-  console.warn(skills, text);
-
-  ul.innerHTML = text.join("");
-}
-
-function loadSkills() {
-  fetch("skills.json").then((r) => {
-    r.json().then((skills) => {
-      showSkills(skills);
-    });
-  });
-}
 
 // executii
 
 showPage(activePage);
 initEvents();
-loadSkills();

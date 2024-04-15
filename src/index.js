@@ -9,9 +9,8 @@ function $(selector) {
 
 function hide(id) {
   console.info("hide", id);
-  $("#" + id).style.disp;
+  $("#" + id).style.display = "none";
   // $(`#${id}`); - a 2 a varianta de scriere a codului de mai sus
-  ay = "none";
   document.getElementById(id).style.display = "none";
 }
 

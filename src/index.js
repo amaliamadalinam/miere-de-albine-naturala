@@ -58,6 +58,21 @@ function initEvents() {
     // console.info("click pe link", a);
   });
 }
+function openPopup() {
+  document.getElementById("popup").style.display = "block";
+  document.getElementById("overlay").style.display = "block";
+}
+
+// Function to close the popup
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+  document.getElementById("overlay").style.display = "none";
+}
+
+// Open the popup when the page loads
+window.onload = function () {
+  openPopup();
+};
 
 // executii
 

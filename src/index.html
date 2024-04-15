@@ -49,6 +49,19 @@
 
       <div id="comanda" class="page">
         <h2>cum puteti comanda</h2>
+        <div class="popup" id="popup">
+          <h2>This is a Popup</h2>
+          <p>Hello, this is a popup window!</p>
+          <button onclick="closePopup()">Close</button>
+        </div>
+
+        <!-- Overlay -->
+        <div class="overlay" id="overlay"></div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png"
+          alt=""
+          width="10%"
+        />
         <form action="https://wa.me/0040742634265">
           <h2>COMANDA AICI</h2>
           <div>
@@ -58,7 +71,7 @@
               required
             />
           </div>
-          <button type="submit">Trimite</button>
+          <button class="button" type="submit">Trimite</button>
         </form>
       </div>
 

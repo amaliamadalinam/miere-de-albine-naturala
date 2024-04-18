@@ -4,6 +4,6 @@ Honey Store 🍯🐝
 
 ## Live
 
-[amaliamadalinam.github.io]((https://amaliamadalinam.github.io/miere-de-albine-naturala/))
+[amaliamadalinam/miere-de-albine-naturala]((https://amaliamadalinam.github.io/miere-de-albine-naturala/))
 
 

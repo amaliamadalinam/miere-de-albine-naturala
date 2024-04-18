@@ -88,10 +88,12 @@ footer {
   text-align: center;
   padding: 5px;
 }
+
 .page {
   display: none;
-  background-image: url(images/honeyjarr.png);
-  background-position: 20%;
+  background-image: url(images/1339729.png);
+  /* opacity: 0.8; */
+  background-position: 85%;
   background-size: cover;
   align-content: stretch;
   padding: 20px;
@@ -100,10 +102,12 @@ footer {
   border: 1px solid grey;
   flex: 4;
   box-shadow: 0 0 0 1px rgba(88, 3, 3, 0.15), 0 2px 3px rgba(0, 0, 0, 0.15);
+  color: white;
+  font-weight: 100;
 }
 
 .page > h2 {
-  margin: 0 0 10px 0;
+  /* margin: 0 0 10px 0; */
   color: rgb(223, 144, 27) 988;
 }
 
@@ -157,6 +161,37 @@ th {
   color: #4646468f transparent;
   background: rgb(223, 144, 27);
 }
+
+.button {
+  padding: 2px 8px;
+  cursor: pointer;
+  font-size: 1em;
+  background-color: #08bd35;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #343434;
+  padding: px 8px;
+  display: flex;
+  flex: 1;
+  margin: 15px 15px 15px 55px;
+}
+.input {
+  align-self: auto;
+  padding: 10px;
+  /* margin: 25px; */
+  font-display: 25px;
+
+  font-weight: 100;
+}
+
+.image {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.comanda {
+  text-align: center;
+}
 /* .button {
   .float {
   /* position: fixed; */
@@ -173,21 +208,21 @@ th {
     z-index: 100; */
 /* } */
 
-.my-float {
+/* .my-float {
   margin-top: 170px;
 }
 
 .input {
   display: flow-root;
   border-style: inset 20%;
-}
+} */
 .popup {
   display: none;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: rgb(211, 102, 0);
   padding: 20px;
   border: 1px solid #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

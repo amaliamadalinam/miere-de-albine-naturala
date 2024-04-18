@@ -74,29 +74,29 @@ window.onload = function () {
   openPopup();
 };
 
-function search() {
-  // Get the search query
-  var query = document.getElementById("searchInput").value.trim().toLowerCase();
+// function search() {
+//   // Get the search query
+//   var query = document.getElementById("searchInput").value.trim().toLowerCase();
 
-  // Get all the elements to search through
-  var elements = document.querySelectorAll(".searchable");
+//   // Get all the elements to search through
+//   var elements = document.querySelectorAll(".searchable");
 
-  // Clear previous search results
-  document.getElementById("searchResults").innerHTML = "";
+//   // Clear previous search results
+//   document.getElementById("searchResults").innerHTML = "";
 
-  // Loop through all elements
-  elements.forEach(function (element) {
-    var content = element.textContent.trim().toLowerCase();
+//   // Loop through all elements
+//   elements.forEach(function (element) {
+//     var content = element.textContent.trim().toLowerCase();
 
-    // Check if the content contains the search query
-    if (content.includes(query)) {
-      // If it matches, add it to the search results
-      var resultItem = document.createElement("div");
-      resultItem.textContent = content;
-      document.getElementById("searchResults").appendChild(resultItem);
-    }
-  });
-}
+//     // Check if the content contains the search query
+//     if (content.includes(query)) {
+//       // If it matches, add it to the search results
+//       var resultItem = document.createElement("div");
+//       resultItem.textContent = content;
+//       document.getElementById("searchResults").appendChild(resultItem);
+//     }
+//   });
+// }
 
 // executii
 

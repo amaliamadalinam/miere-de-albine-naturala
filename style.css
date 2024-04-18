@@ -40,6 +40,13 @@ header {
   text-shadow: 1px 1px 2px black;
 }
 
+.search-container {
+  margin-bottom: 20px;
+}
+
+#searchResults {
+  margin-top: 20px;
+}
 body {
   min-height: 100%;
   margin: 0;

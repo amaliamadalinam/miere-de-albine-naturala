@@ -30,7 +30,7 @@ function showPage(id) {
   hide(activePage);
   prevLink.classList.remove("active");
 
-  console.warn("a[data-page=" + id + "]");
+  // console.warn("a[data-page=" + id + "]");
   // console.warn(`a[data-page=${id}`); - ambele variante de string scris sunt corecte
   // consolele sunt folosite pentru verificare daca se preia corect id de pe pagina activa
 
@@ -51,7 +51,7 @@ function initEvents() {
   toolbar.addEventListener("click", (e) => {
     if (e.target.matches("a")) {
       const page = e.target.dataset.page;
-      console.warn("click", page);
+      // console.warn("click", page);
       showPage(page);
     }
 
@@ -74,7 +74,32 @@ window.onload = function () {
   openPopup();
 };
 
+function search() {
+  // Get the search query
+  var query = document.getElementById("searchInput").value.trim().toLowerCase();
+
+  // Get all the elements to search through
+  var elements = document.querySelectorAll(".searchable");
+
+  // Clear previous search results
+  document.getElementById("searchResults").innerHTML = "";
+
+  // Loop through all elements
+  elements.forEach(function (element) {
+    var content = element.textContent.trim().toLowerCase();
+
+    // Check if the content contains the search query
+    if (content.includes(query)) {
+      // If it matches, add it to the search results
+      var resultItem = document.createElement("div");
+      resultItem.textContent = content;
+      document.getElementById("searchResults").appendChild(resultItem);
+    }
+  });
+}
+
 // executii
 
 showPage(activePage);
 initEvents();
+search();

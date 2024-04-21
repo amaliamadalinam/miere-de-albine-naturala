@@ -11,7 +11,7 @@ My presentation website made with `HTML`, `CSS` and `JS`.
 ## 📚 The utility of this website for personal purposes
 
 - [x] practiced`HTML` with `CSS`
-- [x] created small bussines presentation
+- [x] created small business presentation
 - [x] understand basics of `JS`and used them
 - [x] understood how **dynamic HTML** works
 

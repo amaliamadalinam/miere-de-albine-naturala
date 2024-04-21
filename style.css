@@ -3,7 +3,7 @@ html {
 }
 
 #header-info h1 {
-  color: rgb(212, 212, 212);
+  color: white;
 }
 #header-info h2 {
   color: white;
@@ -14,8 +14,7 @@ html {
 
 header {
   background-image: url(images/honey-bee-a-bee-flying-into-the-hive-blanokřídlý-insects.jpg);
-  /* background-color: rgb(223, 144, 27); */
-  /* background-image: url(https://beelab.umn.edu/sites/beelab.umn.edu/files/styles/folwell_full/public/2021-05/learn%20about%20honey%20bees%20header.jpg?itok=tXHHAxNX); */
+
   background: cover;
 }
 #header-wraper {
@@ -48,18 +47,6 @@ body {
   background-color: #ffffff90;
 }
 
-/* h1 {
-  color: #fdfdfd;
-  font-weight: 100;
-  font-style: italic;
-  padding-left: 10px;
-  box-shadow: 1px 1px 4px 1px;
-  box-shadow: #057988;
-  text-align: center;
-  padding-left: 15px;
-  margin-top: 5ch;
-  margin-left: 0.5cm;
-} */
 #content {
   flex: 4;
   display: flex;
@@ -100,31 +87,14 @@ footer {
   text-shadow: 1px 1px 2px #181818;
 }
 
-.page > h2 {
-  /* margin: 0 0 10px 0; */
-  color: rgb(223, 144, 27) 988;
-}
-
 #products-list {
   font-size: large;
 }
 
-/* #side-menu {
-  flex: 1;
-  padding: 10px 5px 5px 10px;
-  border-radius: 4px;
-} */
 div {
   display: block;
   unicode-bidi: isolate;
 }
-
-/* td {
-  padding: 6px;
-}
-th {
-  padding: 4px;
-} */
 
 #top-menu-bar {
   text-align: center;
@@ -190,30 +160,7 @@ th {
 .comanda {
   text-align: center;
 }
-/* .button {
-  .float {
-  /* position: fixed; */
-/* width: 150px;
-    height: 150px;
-    bottom: 150px;px;
-    /* right: 150px; */
-/* background-color: #25d366;
-  color: #409139; */
-/* border-radius: 50px; */
-/* text-align: center; */
-/* font-size: 50px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100; */
-/* } */
 
-/* .my-float {
-  margin-top: 170px;
-}
-
-.input {
-  display: flow-root;
-  border-style: inset 20%;
-} */
 .popup {
   display: none;
   position: fixed;

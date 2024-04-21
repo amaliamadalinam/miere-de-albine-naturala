@@ -5,6 +5,7 @@ Honey Store 🍯🐝
 ## Live Preview
 
 [amaliamadalinam/miere-de-albine-naturala](https://amaliamadalinam.github.io/miere-de-albine-naturala/)
+![prezentare website print screeen](https://github.com/amaliamadalinam/miere-de-albine-naturala/assets/162793221/215e80ec-2e83-4181-89f4-8658c2f61fda)
 
 My presentation website made with `HTML`, `CSS` and `JS`.
 

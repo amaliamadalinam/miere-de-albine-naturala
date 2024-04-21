@@ -9,11 +9,11 @@ Honey Store 🍯🐝
 
 Honey Store Project - Features and Usage🍯🐝
 
-- [x]Presentation of the products sold through a website, the availability of a product presentation link, small businesses and product recommendations according to the desired benefits.
+- [x] Presentation of the products sold through a website, the availability of a product presentation link, small businesses and product recommendations according to the desired benefits.
 
-- [x]The website refers to the Facebook page where you can view reviews, comments, photos that document the activity of beekeepers in the process of obtaining bee honey.
+- [x] The website refers to the Facebook page where you can view reviews, comments, photos that document the activity of beekeepers in the process of obtaining bee honey.
 
-- [x]The interaction with the customers is done by sending to the Facebook page or by sending the message/order directly on Whatsapp with the idea of facilitating the interaction with a local target group of various ages.
+- [x] The interaction with the customers is done by sending to the Facebook page or by sending the message/order directly on Whatsapp with the idea of facilitating the interaction with a local target group of various ages.
 
 My presentation website made with `HTML`, `CSS` and `JS`.
 

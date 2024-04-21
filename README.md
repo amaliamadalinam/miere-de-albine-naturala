@@ -15,7 +15,7 @@ My presentation website made with `HTML`, `CSS` and `JS`.
 - [x] understand basics of `JS`and used them
 - [x] understood how **dynamic HTML** works
 
-## 📋 DEV notes
+## 📋 DEV notes - Daily usage
 
 ```sh
 
